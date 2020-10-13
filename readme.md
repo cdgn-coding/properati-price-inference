@@ -1,26 +1,19 @@
-**Precio por metro cuadrado dolarizado**
-¿Podemos completar precio por metro cuadrado utilizando precio y superficie?
-¿Cual es el tipo de cambio?
-¿Que cosas podemos decir?
+# Properati price inference
 
-**Rooms**
-¿Podemos completar la cantidad de ambientes?
-¿Cantidad de ambientes se correlaciona con el precio por metro cuadrado?
-¿Que cosas podemos decir?
+En el presente proyecto exploramos un dataset que contiene una colección de propiedades inmobiliarias del sitio web [Properati](https://www.properati.com.ar/) para el año 2017, más aún, implementamos un regresor para realizar inferencias sobre el precio de las propiedades utilizando datos cerrados y texto que contienen las publicaciones en el dataset.
 
-**Property type**
-¿El tipo de propiedad se correlaciona con el precio por metro cuadrado?
-¿Que cosas podemos decir?
+## Estructura del repositorio
 
-**Expenses**
-¿Expensas se correlaciona con el precio por metro cuadrado?
-¿Que cosas podemos decir?
+El scaffolding se encuentra dispuesto de la siguiente manera:
 
-**State name**
-¿Cuales estados son mas relevantes para el estudio de precios que estamos haciendo?
-¿Qué cosas podemos decir?
-**Placename**
-¿El placename se correlaciona con el precio por metro cuadrado?
-¿Cuales son los placenames mas relevantes dados los barrios que creemos relevantes?
-¿Que cosas podemos decir?
-Los estados con menos registros ¿Los agrupamos o los tiramos? ¿Por qué?
+* [0_Exploratory_Data_Analysis.ipynb](0_Exploratory_Data_Analysis.ipynb): muestra el analisis y exploracion de los datos.
+* [1_Regresion_Properati_Final.ipynb](1_Regresion_Properati_Final.ipynb): implementa un regresor realizando tuneo de hiperparámetros.
+* [properati.zip](properati.zip): tiene de forma comprimida el archivo ```properati.csv```, el cual es necesario para ejecutar las notebooks.
+* [Exploracion](Exploracion): contiene notebooks explorando y graficando desde distintos puntos el dataset, estas notebooks fueron unidas utilizando nbmerge para crear la primer notebook que contiene toda la exploracion.
+
+## Equipo
+
+[Guido Mitolo](https://github.com/guidomitolo) \
+[Thomas Artopoulos](https://github.com/thomasartopoulos)\
+[Jonatan Smith](https://github.com/John31991)\
+[David G. Nexans](https://github.com/cnexans)
