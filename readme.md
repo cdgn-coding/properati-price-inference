@@ -35,6 +35,16 @@ El scaffolding se encuentra dispuesto de la siguiente manera:
 ### Wordcloud de comentarios de propietario
 ![](https://github.com/cnexans/properati-price-inference/blob/master/Imagenes/wordcloud.png)
 
+## Algunas consideraciones sobre el tratamiento de datos
+
+El dataset de Properati año 2017 al que accedimos para realizar este proyecto se encontraba con muchos errores. Algunas estrategias para subvertirlos fueron:
+
+*Imputación
+*Limpieza de nulos
+*Se acudió al registro de conversión para poder realizar la misma desde monedas regionales a USD teniendo en cuenta su fecha de publicación
+*Algunas propiedades fueron relocalizadas teniendo en cuenta los límites comunales de la Capital Federal.
+
+
 ## Equipo
 
 * [Guido Mitolo](https://github.com/guidomitolo)
