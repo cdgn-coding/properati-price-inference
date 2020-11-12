@@ -11,6 +11,30 @@ El scaffolding se encuentra dispuesto de la siguiente manera:
 * [properati.zip](properati.zip): tiene de forma comprimida el archivo ```properati.csv```, el cual es necesario para ejecutar las notebooks.
 * [Exploracion](Exploracion): contiene notebooks explorando y graficando desde distintos puntos el dataset, estas notebooks fueron unidas utilizando nbmerge para crear la primer notebook que contiene toda la exploracion.
 
+
+## Resultados de la exploración de datos
+
+### Distribución 1
+![](https://github.com/cnexans/properati-price-inference/blob/master/Imagenes/distribuci%C3%B3n.png)
+
+### Distribución ciudades
+![](https://github.com/cnexans/properati-price-inference/blob/master/Imagenes/distribucionciudades.png)
+
+### Tasa de conversión
+![](https://github.com/cnexans/properati-price-inference/blob/master/Imagenes/conversion.png)
+
+### Outliers superficie
+![](https://github.com/cnexans/properati-price-inference/blob/master/Imagenes/outlierssurface.png)
+
+### Precio por tipo de propiedad
+![](https://github.com/cnexans/properati-price-inference/blob/master/Imagenes/precioportipo.png)
+
+### Superficie cubierta por tipo
+![](https://github.com/cnexans/properati-price-inference/blob/master/Imagenes/surface_covered_propiedad.png)
+
+### Wordcloud de comentarios de propietario
+![](https://github.com/cnexans/properati-price-inference/blob/master/Imagenes/wordcloud.png)
+
 ## Equipo
 
 * [Guido Mitolo](https://github.com/guidomitolo)
